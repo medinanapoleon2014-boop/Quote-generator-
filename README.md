@@ -3,7 +3,7 @@
 A clean, interactive web app that generates inspirational and thought-provoking quotes with the click of a button.
 
 ## 🚀 Live Demo
-[Click here to view the live project](https://medinanapoleon2014-boop.github.io/Quote-generator-/) *(Optional: Replace with your link if hosted)*
+[Click here to view the live project](https://medinanapoleon2014-boop.github.io/Quote-generator-/)
 
 ## ✨ Features
 * **Random Quote Generation:** Fetches and displays a new quote instantly.
