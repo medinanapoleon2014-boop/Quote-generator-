@@ -7,8 +7,6 @@ A clean, interactive web app that generates inspirational and thought-provoking 
 
 ## ✨ Features
 * **Random Quote Generation:** Fetches and displays a new quote instantly.
-* **Topic/Category Filtering:** Allows users to filter quotes by category. *(Remove if not applicable)*
-* **Copy to Clipboard:** Easily copy quotes with one click to share.
 * **Responsive Design:** Works smoothly on both mobile screens and desktop devices.
 
 ## 🛠️ Built With
