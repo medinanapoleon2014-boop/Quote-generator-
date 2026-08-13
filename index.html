@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuoteGenerator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="signIn">
+        <form action="" class="signInForm">
+            <img id="signPerson" src="assets/images/icons8-person-64.png" alt="Person">
+            <h1>Sign In</h1>
+            <input id="username" type="text" placeholder="Username">
+            <input id="password" type="password" placeholder="Password">
+            <button id="signInBtn" type="submit">Sign In</button>
+        </form>
+    </div>
+
+    <div class="dashboard" hidden>
+        <div class="quoteCard">
+            <h2>Welcome to the Quote Generator</h2>
+            <p id="quoteText">Click the button to generate a quote</p>
+            <button id="quoteBtn">New Quote</button>
+        </div>
+    </div>
+    <script src="renderer.js"></script>
+</body>
+
+</html>
