@@ -1,8 +1,3 @@
-/* Hide helper */
-[hidden] {
-    display: none !important;
-}
-
 * {
     box-sizing: border-box;
 }
