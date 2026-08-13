@@ -1,25 +1,7 @@
 //DOM
-const signIn = document.querySelector(".signIn")
-const dashboard = document.querySelector(".dashboard")
-const signInForm = document.querySelector(".signInForm")
 const quoteCard = document.querySelector(".quoteCard")
-const username = document.getElementById("username")
-const password = document.getElementById("password")
-const signInBtn = document.getElementById("signInBtn")
 const quoteText = document.getElementById("quoteText")
 const quoteBtn = document.getElementById("quoteBtn")
-
-//SignIn function
-signInForm.addEventListener("submit", (e) => {
-    e.preventDefault();
-
-    if (username.value === 'admin' && password.value === 'admin123') {
-        signIn.hidden = true;
-        dashboard.hidden = false;
-    } else {
-        alert("incorrect Password or Username");
-    }
-});
 
 //dashboard quoteCard
 let quotes = [];
